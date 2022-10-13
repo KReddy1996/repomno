@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T14:46:06 IST" name="Suite" finished-at="2022-10-07T14:47:24 IST" duration-ms="78550">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T14:46:06 IST" name="TestTwo" finished-at="2022-10-07T14:47:02 IST" duration-ms="56602">
+      <class name="test.TwoTest">
+        <test-method signature="twoTest()[pri:0, instance:test.TwoTest@77d67cf3]" started-at="2022-10-07T14:46:06 IST" name="twoTest" finished-at="2022-10-07T14:47:02 IST" duration-ms="56486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- test.TwoTest -->
+    </test> <!-- TestTwo -->
+    <test started-at="2022-10-07T14:46:06 IST" name="TestFour" finished-at="2022-10-07T14:47:04 IST" duration-ms="58572">
+      <class name="test.FourTest">
+        <test-method signature="fourTest()[pri:0, instance:test.FourTest@53941c2f]" started-at="2022-10-07T14:46:06 IST" name="fourTest" finished-at="2022-10-07T14:46:56 IST" duration-ms="50719" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at test.FourTest.fourTest(FourTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:test.FourTest@53941c2f]" started-at="2022-10-07T14:46:57 IST" name="closingBrowser" finished-at="2022-10-07T14:47:04 IST" duration-ms="7041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- test.FourTest -->
+    </test> <!-- TestFour -->
+    <test started-at="2022-10-07T14:46:06 IST" name="TestThree" finished-at="2022-10-07T14:47:04 IST" duration-ms="58608">
+      <class name="test.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:test.ThreeTest@66ac5762]" started-at="2022-10-07T14:46:06 IST" name="threeTest" finished-at="2022-10-07T14:47:04 IST" duration-ms="58493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- test.ThreeTest -->
+    </test> <!-- TestThree -->
+    <test started-at="2022-10-07T14:46:06 IST" name="TestLogin" finished-at="2022-10-07T14:47:24 IST" duration-ms="78549">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:46:06 IST" name="openApplication" finished-at="2022-10-07T14:46:54 IST" duration-ms="48674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:46:54 IST" name="login" data-provider="getLoginData" finished-at="2022-10-07T14:47:04 IST" duration-ms="9695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kundansinghreddy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kundan@26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closerMethod()[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:47:04 IST" name="closerMethod" finished-at="2022-10-07T14:47:05 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closerMethod -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:47:05 IST" name="openApplication" finished-at="2022-10-07T14:47:20 IST" duration-ms="15218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:47:20 IST" name="login" data-provider="getLoginData" finished-at="2022-10-07T14:47:24 IST" duration-ms="4056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kundansinghreddy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kundan26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closerMethod()[pri:0, instance:test.LoginTest@331acdad]" started-at="2022-10-07T14:47:24 IST" name="closerMethod" finished-at="2022-10-07T14:47:24 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closerMethod -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- TestLogin -->
+  </suite> <!-- Suite -->
+</testng-results>
